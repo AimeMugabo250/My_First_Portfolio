@@ -1,42 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - Cool Website</title>
+    <meta charset="UTF-8">
+    <title>My Cool First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            text-decoration: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .table-container {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
-  </header>
+    <article>
+        <h1>Welcome to My First Webpage</h1>
+        
+        <h2>About Me</h2>
+        <p>Hello! I'm learning how to create webpages using HTML. This is my very first project, and I'm excited to build more.</p>
 
-  <!-- Heading Level 1 -->
-  <h1>Welcome to TechCon 2024</h1>
+        <h2>Why I Love Coding</h2>
+        <p>Coding allows me to bring my ideas to life and solve interesting problems. Every line of code teaches me something new.</p>
 
-  <!-- Heading Level 2 -->
-  <h2>Innovate. Connect. Lead.</h2>
+        <h3>My Goals</h3>
+        <p>I aim to become a skilled developer and contribute to open-source projects. I also want to build apps that help people in meaningful ways.</p>
 
-  <!-- Paragraphs -->
-  <p>TechCon 2024 is the premier technology conference that brings together innovators, developers, and entrepreneurs from around the world. Join us to explore the latest in AI, blockchain, cybersecurity, and more.</p>
+        <h3>Fun Fact</h3>
+        <p>Did you know that the first website ever created is still online? It was built by Tim Berners-Lee in 1991!</p>
 
-  <p>This year's conference will feature over 50 keynote speakers, hands-on workshops, and networking opportunities designed to help you grow professionally and personally.</p>
+        <h2>Click the Image Below!</h2>
+        <a href="https://www.alxafrica.com/" target="_blank">
+            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
+        </a>
 
-  <!-- Heading Level 3 -->
-  <h3>Why Attend?</h3>
-
-  <p>Gain exclusive insights from industry leaders, discover cutting-edge technologies, and participate in transformative discussions that shape the future of tech.</p>
-
-  <p>Whether you're a seasoned pro or just getting started in your tech journey, TechCon 2024 offers something valuable for everyone.</p>
-
-  <!-- Clickable Image -->
-  <a href="https://www.alxafrica.com/" target="_blank">
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200" />
-  </a>
-  <footer>
-    <p>Made by Aime Mugabo - <a href="https://example.com" target="_blank">here</a>.</p>
-  </footer>
+        <!-- New Learners Table -->
+        <div class="table-container">
+            <h2>Meet Some of the Learners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
 </body>
 </html>
+
